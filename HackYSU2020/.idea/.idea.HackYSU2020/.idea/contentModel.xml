@@ -21,6 +21,8 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="Bouncer.cs" t="Include" />
+          <e p="BubbleGravity.cs" t="Include" />
           <e p="CameraFollow.cs" t="Include" />
           <e p="FishMove.cs" t="Include" />
           <e p="JoyconDemo.cs" t="Include" />
@@ -29,6 +31,8 @@
             <e p="Joycon.cs" t="Include" />
             <e p="JoyconManager.cs" t="Include" />
           </e>
+          <e p="LockRotation.cs" t="Include" />
+          <e p="OutOfBounds.cs" t="Include" />
           <e p="TileTexture.cs" t="Include" />
           <e p="TiltControls.cs" t="Include" />
         </e>
