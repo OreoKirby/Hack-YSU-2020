@@ -60,7 +60,7 @@ public class TiltControls : MonoBehaviour
 
             if (-this.transform.rotation.eulerAngles.x < maxAngle && -this.transform.rotation.eulerAngles.x > -maxAngle)
             {
-                yMax = -this.transform.rotation.eulerAngles.x;
+                yMax = this.transform.rotation.eulerAngles.x;
             }
 
             fix = Quaternion.Euler(xMax, yMax, zMax);
