@@ -572,8 +572,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gyro: {x: 0, y: 0, z: 0}
   accel: {x: 0, y: 0, z: 0}
+  xMax: 0
+  yMax: 0
+  zMax: 0
   orientation: {x: 0, y: 0, z: 0, w: 0}
-  fix: {x: 0, y: 0, z: 0, w: 0}
+  maxAngle: 15
 --- !u!65 &2086993215
 BoxCollider:
   m_ObjectHideFlags: 0
