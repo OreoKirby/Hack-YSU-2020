@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Bubble
   - Terrain
+  - Floor
   layers:
   - Default
   - TransparentFX

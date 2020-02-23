@@ -32,6 +32,7 @@
             <e p="JoyconManager.cs" t="Include" />
           </e>
           <e p="LockRotation.cs" t="Include" />
+          <e p="OutOfBounds.cs" t="Include" />
           <e p="TileTexture.cs" t="Include" />
           <e p="TiltControls.cs" t="Include" />
         </e>

@@ -166,6 +166,7 @@ GameObject:
   - component: {fileID: 114373704}
   - component: {fileID: 114373703}
   - component: {fileID: 114373702}
+  - component: {fileID: 114373706}
   m_Layer: 0
   m_Name: SphereCol
   m_TagString: Untagged
@@ -264,6 +265,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 114373700}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &114373706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114373700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4badd68b1af44852938b4ed552f1581, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody: {fileID: 114373702}
 --- !u!4 &237405774 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2493965377096840892, guid: 24e903f2cce7e46eea4ec0b231c278fc,
@@ -765,7 +779,7 @@ GameObject:
   - component: {fileID: 1291918771}
   m_Layer: 0
   m_Name: Water
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -779,7 +793,7 @@ MeshCollider:
   m_GameObject: {fileID: 1291918766}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Convex: 0
   m_CookingOptions: 30
@@ -839,7 +853,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1291918766}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -24.6, z: 0}
   m_LocalScale: {x: 100, y: 1, z: 100}
   m_Children: []
   m_Father: {fileID: 543416156}
