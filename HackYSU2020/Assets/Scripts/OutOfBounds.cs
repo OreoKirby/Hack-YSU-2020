@@ -24,7 +24,7 @@ public class OutOfBounds : MonoBehaviour
     {
         if (other.gameObject.CompareTag(tag: "Floor"))
         {
-            rigidbody.transform.position = new Vector3(0, 0, -5f);
+            rigidbody.transform.position = new Vector3(0, 2, -5f);
         }
     }
 }
