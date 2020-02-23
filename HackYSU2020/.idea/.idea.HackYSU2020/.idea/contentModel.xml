@@ -4,8 +4,22 @@
     <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
     <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_HackYSU2020.-907630994.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="BubbleR" t="Include">
+          <e p="BlendMode.cs" t="Include" />
+          <e p="BubbleR.cginc" t="Include" />
+          <e p="BubbleShader-Textured.shader" t="Include" />
+          <e p="BubbleShader.shader" t="Include" />
+          <e p="Documentation" t="Include">
+            <e p="Instructions.txt" t="Include" />
+          </e>
+          <e p="Editor" t="Include">
+            <e p="BubbleShaderEditor.cs" t="Include" />
+            <e p="BubbleShaderTexturedEditor.cs" t="Include" />
+          </e>
+        </e>
         <e p="Scripts" t="Include">
           <e p="CameraFollow.cs" t="Include" />
           <e p="FishMove.cs" t="Include" />
@@ -15,6 +29,7 @@
             <e p="Joycon.cs" t="Include" />
             <e p="JoyconManager.cs" t="Include" />
           </e>
+          <e p="TileTexture.cs" t="Include" />
           <e p="TiltControls.cs" t="Include" />
         </e>
       </e>
